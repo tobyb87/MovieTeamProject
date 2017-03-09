@@ -1,1 +1,1 @@
-# MovieTeamProject
+# project1-trivia

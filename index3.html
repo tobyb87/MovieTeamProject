@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Trivia Game</title>
+
+    <script
+  type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <div class="row">
+
+            <!-- Left Section -->
+            <div class="col-md-3">
+            </div>
+
+            <!-- Middle Section -->
+            <div class="col-md-6">
+                
+                <!-- Chat box / Movie screen -->
+                <div class="row">
+
+                    <div class="col-md-12" id="top-center-div">
+
+                        <div id="chat-box-outline">
+
+                            <div id="chat-box">
+
+                            <p> Player_One: This is a text message </p>
+
+                            </div>
+
+                        </div>
+
+                                <form class="form-inline" id="chat-form">
+                                <input type="text" class="form-control" id="chat-message" placeholder="Enter message here">
+                                <button id="send-message" class="btn btn-default">Send</button>
+                                  </form>
+
+                    </div>
+
+                </div>
+                
+                <!-- User Seats -->
+                <div class="row">
+                    
+                    
+                        
+                            <!-- Empty space -->
+                            <div class="col-md-1">
+                    <p> Blank</p>
+
+                    </div>
+
+                    <!-- User 1 -->
+                    <div class="col-md-2 player player-margin15 nameInput">
+                        <form>
+                            <label for="nameInput">First Name</label>
+                            <input type="text" id="nameInput" name="nameInput">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname">
+                        </form>
+                    </div>
+                    
+                    
+                    <!-- User 2 -->
+                    <div class="col-md-2 player player-margin24">
+                    <p>Player 2</p>
+                    </div>
+
+                    <!-- User 3 -->
+                    <div class="col-md-2 player player-margin3">
+                    <p>Player 3</p>
+                    </div>
+
+                    <!-- User 4 -->
+                    <div class="col-md-2 player player-margin24">
+                    <p>Player 4</p>
+                    </div>
+
+                    <!-- User 5 -->
+                    <div class="col-md-2 player player-margin15">
+                    <p>Player 5</p>
+                    </div>
+
+                    <!-- Empty space -->
+                    <div class="col-md-1">
+                    <p>Blank</p>
+                    </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Section -->
+            <div class="col-md-3">
+            </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
